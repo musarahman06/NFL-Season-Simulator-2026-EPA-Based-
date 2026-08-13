@@ -2,7 +2,7 @@
 
 This is a full **NFL season prediction** and sim engine built **end to end**. It is trained on XGBoost model that predicts every 2026 game and a Monte Carlo engine that runs the season 500 times to compute realistic playoff and "Big Game" odds. 
 
-![Home page standings](screenshots/1 Monte Carlo SIm)
+![Home page standings](screenshots/1 Monte Carlo SIm.png)
 
 Includes a interactive Streamlit app built in collaboration with Claude to allow you to run your own sims with downloadable .csv's.
 
