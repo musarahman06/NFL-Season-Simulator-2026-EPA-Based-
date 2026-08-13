@@ -60,5 +60,28 @@ Most interative part. Start by adjusting power rankings and different offensive/
 - **Data** - nfl_data_py, SQLite
 - **App** - Streamlit, Altair, ReportLabs (PDF export), steamlit-sortables (drag and drop reordering)
 
-# 
+# Running App Locally
+
+```
+python3 -m pip install -r requirements.txt
+streamlit run app/Home.py
+```
+
+Note: data/nfl.db isn't included in repo because it exceeds GitHub file size limit - regenerate it by running notebooks 00-05 in order
+
+# Known Limitations
+- **The app is local-only, not deployed** - There is no live link in order to acess app you must run yourself. That is why screenshots are added to visually show app
+
+- **2025 rolling stats are frozen and not live** - Player level EPA data isn't avliable for 2025 games so for that reason the last real EPA numbers used were 2024 not 2025. This obviously misses a layer of authencity that is being made up through preseason 2026 NFL rankings.
+
+- **Player Skill Not Influenting Game** - Currently there is no system that shows that Josh Allen is a much better QB than Jacoby Brisset. It is just names on a screen. The actually player stats are based on pervious usage level however for the most part they signify the best players doing better. That being said this is something I would like to work on and fix in a 2027 version.
+
+# What is Next
+- Player level rating to evolve simulated weeks and provided for accurate stats
+- More grandular injury modeling beyod the three tracked starter position
+- Defensive team stats
+- Live deployment
+
+# Data Source
+Historical play-by-play, roster, and schedule data via nflverse/nfl_data_py. Preseason power rankings via NFL.com (published August 2026).
 

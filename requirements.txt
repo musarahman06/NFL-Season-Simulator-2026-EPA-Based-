@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+joblib
+xgboost
+scikit-learn
+altair
+reportlab
+streamlit-sortables
