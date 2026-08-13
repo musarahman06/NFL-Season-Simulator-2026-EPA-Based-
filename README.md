@@ -31,24 +31,29 @@ League wide player and "Big Game" odds based on teh 500 Monte Carlo sims
 ## Team Pages
 From One Sim - Pick any team and see their simulated schedules, point-for and againist line chart and a season stat leader. Click into any game for the full box score, or into any player for their game by game log.
 
-![unaviable](screenshots/2TeamPage(IndvidualTeamStats))
-![unaviable](screenshots/3TeamBoxScoresEachGame)
-![unaviable](screenshots/4TeamSeasonStats)
-![unaviable](screenshots/5PlayerStatsThroughSeason)
+![unaviable2](screenshots/2TeamPage(IndvidualTeamStats))
+
+![unaviable3](screenshots/3TeamBoxScoresEachGame)
+
+![unaviable4](screenshots/4TeamSeasonStats)
+
+![unaviable5](screenshots/5PlayerStatsThroughSeason)
 
 
 ## Playoff Bracket
 From One Sim - Has full simulated playoffs with season standings and game by game box scores
 
-![unaviable](screenshots/6Playoffs)
-![unaviable](screenshots/7PrediactedSuperBowlwithstats)
-![unaviable](screenshots/8LeagueStandings)
+![unaviable6](screenshots/6Playoffs)
+
+![unaviable7](screenshots/7PrediactedSuperBowlwithstats)
+
+![unaviable8](screenshots/8LeagueStandings)
 
 
 ## Create Your Own Sim
 Most interative part. Start by adjusting power rankings and different offensive/dfensive EPA rankings to run your own season. Hover over each catorgory to see how changing it will influence the sim. This season includes all the stats and game box scores mentioned above plus csvs for you to download with your own stats and a pdf with your winner.
 
-![unaviable](screenshots/9RunYourOwnSimEditableEPA)
+![unaviable9](screenshots/9RunYourOwnSimEditableEPA)
 
 # Tech Stack
 - **Python** - pandas, numpy, scikit-lean, XGBoost
